@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#photo{
+    width: 1300px;
+    min-height:475px;
+    margin: 0 auto;
+    font-size: 15px;
+	font-family: "微软雅黑";
+    background-color: lightsteelblue;
+    border: 0 solid lightsteelblue;
+    border-radius: 10px;
+}
+#photo h2 {
+    font-size: 35px;
+    font-family: "微软雅黑";
+    color: #04569A;
+    text-indent: 0;
+    text-align: center;
+}
+#photo dl{
+    width: 350px;
+    margin: auto;
+    font-size: 20px;
+}
+#photo dl dd{
+    padding: 15px 0 10px 0;
+    font-family: "微软雅黑 Light";
+    font-weight: bolder;
+    margin: 20px 0 10px 0;
+}
+#photo dl dd .text{
+    width: 220px;
+    height: 30px;
+    font-size: 23px;
+    font-family: "微软雅黑";
+    border: 1px solid lightsteelblue;
+    border-radius: 10px;
+    padding-left: 10px;
+    float:right;
+}
+a#upload{
+    color: #3a768f;
+    text-decoration: none;
+}
+a#upload:hover{
+    color: #4b88b6;
+    text-decoration: underline;
+}
+#photo dl dd textarea{
+    width: 225px;
+    height: 125px;
+    font-size: 20px;
+    font-family: "微软雅黑";
+    border: 1px solid lightsteelblue;
+    border-radius: 10px;
+    padding-left: 10px;
+    float:right;
+}
+.submit{
+    width: 220px;
+    height: 40px;
+    color: darkorange;
+    font: normal bold 25px/25px "微软雅黑 Light";
+    border: 1px solid #1883ba;
+    border-radius: 10px;
+    background-color: #1883ba;
+    margin: 45px 0 45px 115px;
+    cursor: pointer;
+}
+.submit:hover{
+    color: whitesmoke;
+    background-color: royalblue;
+}
+

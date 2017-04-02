@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#member{
+    width: 1300px;
+    height: 650px;
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: "微软雅黑";
+    background-color: lightsteelblue;
+    border: 0 solid lightsteelblue;
+    border-radius: 10px;
+}
+#member h2{
+    font-size: 18px;
+    background: lightsteelblue;
+    height: 35px;
+    line-height: 35px;
+    text-indent: 10px;
+    border: 0 solid lightsteelblue;
+    border-radius: 5px;
+}
+#member_sidebar{
+    width:300px;
+    height:550px;
+    margin: 50px 0 0 50px;
+    border: 2px solid #999999;
+    border-radius: 10px;
+    float: left;
+    background-color: lightgoldenrodyellow;
+}
+#member_sidebar dl{
+    width: 250px;
+    margin: 25px auto;
+}
+#member_sidebar dl dt {
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: lightsteelblue;
+    border: 0 solid lightsteelblue;
+    border-radius: 5px;
+}
+#member_sidebar dl dd{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    background-color: lightskyblue;
+    border: 0 solid lightskyblue;
+    border-radius: 5px;
+}
+#member_sidebar dl dd a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    color: black;
+    text-decoration: none;
+}
+#member_sidebar dl dd a:hover{
+    background: cornflowerblue;
+    border: 0 solid cornflowerblue;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+#member_main{
+    width:850px;
+    height:550px;
+    margin: 50px 50px 0 0;
+    border: 2px solid #999999;
+    border-radius: 10px;
+    float: right;
+    background-color: lightgoldenrodyellow;
+    position: relative;
+}
+#member_main img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:60px;
+    left:35px;
+    border-radius: 10px;
+}
+#member_main dl{
+    width:500px;
+    margin: -5px auto;
+    font-weight: bolder;
+}
+#member_main dl dd{
+    margin-top: 5px;
+    padding: 20px 0;
+    border-bottom: 1px dashed #999999;
+}

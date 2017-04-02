@@ -1,0 +1,51 @@
+*{
+	font-family: "微软雅黑";
+    font-weight: bolder;
+    line-height: 45px;
+}
+body{
+	width: auto;
+}
+#upimg h3{
+	width: 90%;
+    margin: 10px auto;
+    height: 45px;
+    text-align: center;
+    background-color: lightsteelblue;
+    border: 0 solid lightsteelblue;
+    border-radius: 5px;
+}
+#upimg dl{
+    width: 90%;
+    margin: 25px auto;
+    padding: 30px 0 30px 0 ;
+    text-align: center;
+    background-color: lightsteelblue;
+    border: 0 solid lightsteelblue;
+    border-radius: 5px;
+    background: gray;
+}
+#upimg dl dd{
+	margin-top: 25px; 
+}
+#upimg input{
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	background: white;
+    border-radius: 5px;
+}
+#upimg input#submit{
+	width: 70px;
+    height: 35px;
+    color: #0e3460;
+    background: lightskyblue;
+    border: 1px solid lightskyblue;
+	cursor: pointer;
+}
+#upimg input#submit:hover{
+    background: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    color: whitesmoke;
+    cursor: pointer;
+}

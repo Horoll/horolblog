@@ -1,0 +1,15 @@
+#footer{
+    width: 800px;
+    height: 80px;
+    margin: 0 auto;
+    clear: both;
+
+}
+#footer p{
+    font-size: 14px;
+    padding: 10px 0 0 0;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: '微软雅黑';
+    color: lightslategray;
+}

@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#blog{
+    width: 1300px;
+    min-height:800px;
+    margin: 0 auto;
+    font-size: 15px;
+	font-family: "微软雅黑";
+    background-color: lightsteelblue;
+    border: 0 solid lightsteelblue;
+    border-radius: 10px;
+}
+#blog h2{
+    font-size: 35px;
+    font-family: "微软雅黑";
+    color: #04569A;
+    text-indent: 0;
+    text-align: center;
+}
+#blog dl{
+    width: 200px;
+    margin: 20px 0 20px 60px;
+    font-family: "微软雅黑";
+    float: left;
+}
+#blog dl dt{
+    width: 100px;
+    margin: 10px;
+}
+#blog dl dt img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    display: block;
+}
+.info{
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 75px;
+    float: left;
+}
+.user{
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+#blog dl dd a{
+    text-decoration: none;
+    color: black;
+}
+#blog dl dd a:hover{
+    font-weight: bold;
+    color: mediumslateblue;
+}
+/*.message{*/
+    /*background: url() no-repeat left center;*/
+/*}*/
+/*.friend{*/
+    /*background: url() no-repeat left center;*/
+/*}*/
+/*.guest{*/
+    /*background: url() no-repeat left center;*/
+/*}*/
+/*.like{*/
+    /*background: url() no-repeat left center;*/
+/*}*/
+#page{
+    clear: both;
+}
+#page ul{
+    position: relative;
+    right: 60px;
+    /*top: 20px;*/
+    float: right;
+    margin:20px 0 10px 0;
+}
+#page li{
+	float: left;
+	height:30px;
+	margin-left: 10px;
+    list-style: none;
+}
+#page li.number{
+    width: 30px;
+}
+#page li.page{
+ 	width: 70px;
+}
+#page a{
+	display: block;
+    height:30px;
+    color: #212121;
+    line-height: 30px;
+    border: 1px solid rgb(0,161,214);
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+#page a.numb{
+    width: 30px;
+}
+#page a.pagechange{
+	width: 70px;
+}
+#page a:hover{
+    background-color: rgb(0,161,214);
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#selected{
+    background-color: rgb(0,161,214);
+    font-weight: bold;
+    color: #FFFFFF;
+ }

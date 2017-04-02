@@ -1,0 +1,76 @@
+body{
+     width: auto;
+ }
+#message h3{
+    width: 90%;
+    margin: 10px auto;
+    height: 45px;
+    font-family: "微软雅黑";
+    font-weight: bolder;
+    line-height: 45px;
+    text-align: center;
+    background-color: lightsteelblue;
+    border: 0 solid lightsteelblue;
+    border-radius: 5px;
+}
+#message dl{
+    width: 90%;
+    margin: 0 auto;
+}
+#message dd{
+    margin: 20px 0 0 10px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+}
+#message dl dd input{
+    width: 180px;
+    height: 25px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    background-color: lightgoldenrodyellow;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#message dl dd input.codeinput{
+    width: 60px;
+}
+#message dl dd textarea{
+    width: 95%;
+    height: 180px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    background-color: lightgoldenrodyellow;
+    border: 1px solid gray;
+    border-radius: 5px;
+    overflow: auto;
+}
+#message dl dd#cod{
+    position: relative;
+    bottom: 15px;
+}
+#message dl dd img#code{
+    position: relative;
+    top: 25px;
+    left: 20px;
+    cursor: pointer;
+}
+#message dl dd input.sub{
+    width: 70px;
+    height: 35px;
+    background: lightskyblue;
+    border: 1px solid lightskyblue;
+    margin-left: 225px;
+    cursor: pointer;
+}
+#message dl dd input.sub:hover{
+    background: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    color: whitesmoke;
+    cursor: pointer;
+}

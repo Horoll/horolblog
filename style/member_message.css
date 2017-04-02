@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#member{
+    width: 1300px;
+    height: 650px;
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: "微软雅黑";
+    background-color: lightsteelblue;
+    border: 0 solid lightsteelblue;
+    border-radius: 10px;
+}
+#member h2{
+    font-size: 18px;
+    background: lightsteelblue;
+    height: 35px;
+    line-height: 35px;
+    text-indent: 10px;
+    border: 0 solid lightsteelblue;
+    border-radius: 5px;
+}
+#member_sidebar{
+    width:300px;
+    height:550px;
+    margin: 50px 0 0 50px;
+    border: 2px solid #999999;
+    border-radius: 10px;
+    float: left;
+    background-color: lightgoldenrodyellow;
+}
+#member_sidebar dl{
+    width: 250px;
+    margin: 25px auto;
+}
+#member_sidebar dl dt {
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: lightsteelblue;
+    border: 0 solid lightsteelblue;
+    border-radius: 5px;
+}
+#member_sidebar dl dd{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    background-color: lightskyblue;
+    border: 0 solid lightskyblue;
+    border-radius: 5px;
+}
+#member_sidebar dl dd a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    color: black;
+    text-decoration: none;
+}
+#member_sidebar dl dd a:hover{
+    background: cornflowerblue;
+    border: 0 solid cornflowerblue;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+#member_main{
+    width:850px;
+    height:500px;
+    margin: 50px 50px 0 0;
+    border: 2px solid #999999;
+    border-radius: 10px;
+    float: right;
+    background-color: lightgoldenrodyellow;
+}
+#member_main table{
+    width: 90%;
+    margin: 0 auto 0 auto;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+#member_main table tr th{
+    background: #1883ba;
+    border: 0 solid #1883ba;
+    border-radius: 10px;
+}
+#member_main table tr td{
+    font-family: "微软雅黑";
+    font-size: 17px;
+    background: lightskyblue;
+    border: 0 solid #1883ba;
+    border-radius: 10px;
+}
+#member_main table tr td a{
+    text-decoration: none;
+    color: black;
+}
+#member_main table tr td a:hover{
+    display: block;
+    background: cornflowerblue;
+    border: 0 solid #1883ba;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+#page{
+    clear: both;
+}
+#page ul{
+    position: relative;
+    right: 75px;
+    top: 425px;
+    float: right;
+}
+#page li{
+    float: left;
+    height:30px;
+    margin-left: 10px;
+    list-style: none;
+}
+#page li.number{
+    width: 30px;
+}
+#page li.page{
+    width: 70px;
+}
+#page a{
+    display: block;
+    height:30px;
+    color: #212121;
+    line-height: 30px;
+    border: 1px solid rgb(0,161,214);
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+#page a.numb{
+    width: 30px;
+}
+#page a.pagechange{
+    width: 70px;
+}
+#page a:hover{
+    background-color: rgb(0,161,214);
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#selected{
+    background-color: rgb(0,161,214);
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#delete{
+    width: 70px;
+    height: 35px;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: bold;
+    background: #1883ba;
+    border: 0 solid lightskyblue;
+    border-radius: 5px;
+    position: relative;
+    left: 315px;
+}
+#delete:hover {
+    background: cornflowerblue;
+    color: whitesmoke;
+    cursor: pointer;
+}

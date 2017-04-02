@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "微软雅黑";
+}
+h2{
+    font-size: 18px;
+    background: lightsteelblue;
+    height: 35px;
+    line-height: 35px;
+    text-indent: 10px;
+    border: 0 solid lightsteelblue;
+    border-radius: 5px;
+}
+#list{
+    width: 800px;
+    min-height: 735px;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    float: right;
+}
+#list ul{
+    list-style-type: none;
+    font-family: "微软雅黑";
+}
+#list ul#article{
+    padding: 20px 50px;
+    font-size: 20px;
+}
+#list ul#article li{
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px dashed #333;
+    padding: 15px 0 5px 30px;
+}
+#list ul#article li em{
+    float: right;
+    font-style: normal;
+}
+#list ul#article li span{
+    color: red;
+}
+#page{
+    clear: both;
+    position: relative;
+}
+#page ul{
+    position: relative;
+    right: 60px;
+    /*top: 20px;*/
+    float: right;
+}
+#page li{
+    float: left;
+    height:30px;
+    margin-left: 10px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+#page li.number{
+    width: 30px;
+}
+#page li.page{
+    width: 70px;
+}
+#page a{
+    display: block;
+    height:30px;
+    color: #212121;
+    line-height: 30px;
+    border: 1px solid rgb(0,161,214);
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+#page a.numb{
+    width: 30px;
+}
+#page a.pagechange{
+    width: 70px;
+}
+#page a:hover{
+    background-color: rgb(0,161,214);
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#selected {
+    background-color: rgb(0, 161, 214);
+    font-weight: bold;
+    color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-weight: bold;
+    color: mediumslateblue;
+}
+#list a.post{
+    font-family: "微软雅黑";
+    font-size: 25px;
+    padding-top: 7px;
+    text-align: center;
+    display: block;
+    margin: 20px 15px 10px 650px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background: #1883ba;
+    color: darkorange;
+}
+#list a.post:hover{
+    color: whitesmoke;
+    background-color: royalblue;
+}
+#user{
+    width: 450px;
+    height: 350px;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    float: left;
+    margin: 0 0 10px 0;
+}
+#user dl{
+    width: 150px;
+    margin: 20px auto;
+    padding: 20px 0 0 0;
+    /*float: left;*/
+    font-family: "微软雅黑";
+}
+#user dl dt{
+    width: 125px;
+    margin: 10px;
+}
+#user dl dt img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    display: block;
+}
+.info{
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 75px;
+    float: left;
+}
+#email{
+    width: 225px;
+    float: right;
+    text-align: left;
+    padding-top: 5px;
+    text-indent: 5px;
+    position: relative;
+    left: 30px;
+}
+.user{
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+/*最新图片*/
+#img{
+    width: 450px;
+    height: 376px;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    float: left;
+    margin: 20px 0 10px 0;
+}
+#img ul{
+    text-align: center;
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    margin-top: 35px;
+}

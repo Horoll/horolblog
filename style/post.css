@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#post{
+    width: 1300px;
+    height: 880px;
+    margin: 0 auto;
+    font-size: 20px;
+    background-color: lightsteelblue;
+    border: 0 solid lightsteelblue;
+    border-radius: 10px;
+    position: relative;
+}
+#post h2{
+    font-size: 35px;
+    font-family: "微软雅黑";
+    color: #1883ba;
+    text-indent: 0;
+    text-align: center;
+}
+#post dl{
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+    left: 25px;
+}
+#post dl dd{
+    padding: 15px 0 10px 0;
+    font-family: "微软雅黑 ";
+    font-size: 22px;
+    font-weight: bold;
+}
+#post dl dd input#title{
+    width: 675px;
+    height: 20px;
+    border-radius: 10px;
+    font-family: "STSong";
+    font-size: 22px;
+    padding: 5px;
+}
+#post dl dd input#tag{
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    font-family: "STSong";
+    font-size: 22px;
+    padding: 5px;
+}
+#post dl dd div#ubb{
+    width: 850px;
+    height: 45px;
+    background-color: #00B2C5;
+    border: 0 solid #1883ba;
+    border-radius: 10px;
+}
+#ubb ul{
+    font-size: 15px;
+    list-style-type: none;
+    padding-top: 15px;
+}
+#ubb ul li{
+    float: left;
+    margin-left: 25px;
+}
+#ubb ul a{
+    color: black;
+    text-decoration: none;
+}
+#ubb ul a:hover{
+    color: whitesmoke;
+    font-weight: bold;
+}
+#post dl dd div#font{
+    display: none;
+    font-size: 14px;
+    width: 150px;
+    height: 40px;
+    background-color: #4d77c3;
+    border-radius: 5px;
+    padding: 8px;
+    line-height: 20px;
+    position: absolute;
+    left:10px;
+    top: 110px;
+}
+#post dl dd div#font strong{
+    font-weight: normal;
+    background-color: #8cb2fd;
+    border: 0 solid #00b3ff;
+    cursor: pointer;
+}
+#post dl dd div#color{
+    display: none;
+    width: 160px;
+    height: 160px;
+    font-size: 12px;
+    background-color: #4d77c3;
+    border-radius: 5px;
+    position: absolute;
+    left: 350px;
+    top: 110px;
+}
+#post dl dd div#color strong{
+    border: 0 solid #999;
+    width: 15px;
+    height: 15px;
+    display: block;
+    float: left;
+    margin-left: 6px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+#post dl dd div#color em{
+    display: block;
+    height: 25px;
+    width: 80%;
+    clear: both;
+}
+#post dl dd div#color em input{
+    margin: 3px 0 0 5px;
+    width: 145px;
+    height:25px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+#post dl dd textarea{
+    width: 840px;
+    height: 550px;
+    border-radius: 10px;
+    font-family: STSong;
+    font-size: 22px;
+    padding: 5px;
+}
+#post dl dd .submit{
+    width: 220px;
+    height: 50px;
+    color: darkorange;
+    font: normal bold 25px/25px "微软雅黑 Light";
+    border: 0 solid #1883ba;
+    border-radius: 10px;
+    background-color: #1883ba;
+    margin: 0 0 0 300px;
+    cursor: pointer;
+}
+#post dl dd .submit:hover{
+    color: whitesmoke;
+    background-color: royalblue;
+}

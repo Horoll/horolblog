@@ -1,0 +1,349 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-weight: bold;
+    color: mediumslateblue;
+}
+
+/*图片部分*/
+#photo{
+    min-width: 1300px;
+    min-height:600px;
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: "微软雅黑";
+    background-color: lightsteelblue;
+    border: 0 solid lightsteelblue;
+    border-radius: 10px;
+}
+#photo h2{
+    font-size: 35px;
+    font-family: "微软雅黑";
+    color: #04569A;
+    text-indent: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+#photo dl.detail{
+    width: 1000px;
+    margin: 60px auto 0 auto;
+    padding-bottom: 15px;
+    font-family: "微软雅黑";
+    /*    background: red;*/
+}
+#photo dl.detail dt{
+    text-align: center;
+}
+#photo dl.detail dd{
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 0 0 15px 5px;
+}
+#photo dl.detail dd.browse{
+    color: #3a768f;
+    float: right;
+    padding-top: 25px;
+    padding-right: 10px;
+}
+#photo dl .delete_photo a{
+    color: #3a768f;
+    float: left;
+    text-decoration: none;
+    position: relative;
+    top: 65px;
+    left: 750px;
+}
+#photo dl .delete a:hover{
+    color: #014d68;
+    font-weight: bolder;
+}
+#photo dl.detail dd.content{
+    text-align: center;
+    clear: both;
+}
+
+/*发表评论*/
+p.line{
+    width: 95%;
+    margin: 15px auto 15px auto;
+    clear: both;
+    height: 10px;
+    border-bottom: 1px dashed #333333;
+}
+p.sign{
+    color: #5e87b0;
+    float: right;
+    margin-top: 20px;
+}
+#rephoto{
+    width: 1300px;
+    margin: 0 auto;
+    font-size: 20px;
+    background-color: lightsteelblue;
+    border: 0 solid lightsteelblue;
+    border-radius: 10px;
+    position: relative;
+}
+#rephoto h2{
+    font-size: 35px;
+    font-family: "微软雅黑";
+    color: #1883ba;
+    text-indent: 0;
+    text-align: center;
+}
+#rephoto dl{
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+    left: 25px;
+}
+#rephoto dl dd{
+    padding: 15px 0 10px 0;
+    font-family: "微软雅黑 ";
+    font-size: 22px;
+    font-weight: bold;
+}
+#rephoto dl dd input#title{
+    width: 675px;
+    height: 20px;
+    border-radius: 10px;
+    font-family: "STSong";
+    font-size: 22px;
+    padding: 5px;
+}
+#rephoto dl dd input#tag{
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    font-family: "STSong";
+    font-size: 22px;
+    padding: 5px;
+}
+#rephoto dl dd div#ubb{
+    width: 850px;
+    height: 45px;
+    background-color: #00B2C5;
+    border: 0 solid #1883ba;
+    border-radius: 10px;
+}
+#rephoto #ubb ul{
+    font-size: 15px;
+    list-style-type: none;
+    padding-top: 15px;
+}
+#rephoto #ubb ul li{
+    float: left;
+    margin-left: 25px;
+}
+#rephoto #ubb ul a{
+    color: black;
+    text-decoration: none;
+}
+#rephoto #ubb ul a:hover{
+    color: whitesmoke;
+    font-weight: bold;
+}
+#rephoto #font{
+    display: none;
+    font-size: 14px;
+    width: 150px;
+    height: 40px;
+    background-color: #4d77c3;
+    border-radius: 5px;
+    padding: 8px;
+    line-height: 20px;
+    position: absolute;
+    left:10px;
+    top: 50px;
+}
+#rephoto #font strong{
+    font-weight: normal;
+    background-color: #8cb2fd;
+    border: 0 solid #00b3ff;
+    cursor: pointer;
+}
+#rephoto #color{
+    display: none;
+    width: 160px;
+    height: 160px;
+    font-size: 12px;
+    background-color: #4d77c3;
+    border-radius: 5px;
+    position: absolute;
+    left: 350px;
+    top: 50px;
+}
+#rephoto #color strong{
+    border: 0 solid #999;
+    width: 15px;
+    height: 15px;
+    display: block;
+    float: left;
+    margin-left: 6px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+#rephoto #color em{
+    display: block;
+    height: 25px;
+    width: 80%;
+    clear: both;
+}
+#rephoto #color em input{
+    margin: 3px 0 0 5px;
+    width: 145px;
+    height:25px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+#rephoto dl dd textarea{
+    width: 840px;
+    height: 200px;
+    border-radius: 10px;
+    font-family: STSong;
+    font-size: 22px;
+    padding: 5px;
+}
+#rephoto dl dd .submit{
+    width: 220px;
+    height: 50px;
+    color: darkorange;
+    font: normal bold 25px/25px "微软雅黑 Light";
+    border: 0 solid #1883ba;
+    border-radius: 10px;
+    background-color: #1883ba;
+    margin: 0 0 0 300px;
+    cursor: pointer;
+}
+#rephoto dl dd .submit:hover{
+    color: whitesmoke;
+    background-color: royalblue;
+}
+
+/*评论*/
+.re dl{
+    width: 200px;
+    padding: 20px 0 0 0;
+    float: left;
+    font-family: "微软雅黑";
+}
+.re dl dt{
+    width: 125px;
+    margin: 10px 10px 10px 50px;
+}
+.re dl dt img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.re dd{
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 75px;
+    float: left;
+    position: relative;
+    left: 35px;
+}
+.re .user{
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 0 10px 10px;
+}
+.re #email{
+    width: 225px;
+    float: right;
+    text-align: left;
+    padding-top: 5px;
+    text-indent: 5px;
+}
+.re .content{
+    width: 1000px;
+    min-height: 200px;
+    float: right;
+    line-height: 30px;
+    background-color: whitesmoke;
+    font-size: 20px;
+    padding:20px;
+    margin:20px 20px 20px 0;
+}
+.re .content .blog{
+    color: #06f;
+}
+.re .content .delete_comment{
+    color: #06f;
+}
+.re .content .blog span{
+    float: right;
+    padding-right: 50px;
+}
+.re .content h3{
+    font-size: 25px;
+    text-align: center;
+}
+.re .content .detail a{
+    color: dodgerblue;
+    text-decoration: none;
+}
+.re .content .detail a:hover{
+    color: #ff6611;
+    text-decoration: underline;
+}
+
+#page{
+    clear: both;
+}
+#page ul{
+    position: relative;
+    right: 60px;
+    /*top: 20px;*/
+    float: right;
+    margin:20px 0 10px 0;
+}
+#page li{
+    float: left;
+    height:30px;
+    margin-left: 10px;
+    list-style: none;
+}
+#page li.number{
+    width: 30px;
+}
+#page li.page{
+    width: 70px;
+}
+#page a{
+    display: block;
+    height:30px;
+    color: #212121;
+    line-height: 30px;
+    border: 1px solid rgb(0,161,214);
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+#page a.numb{
+    width: 30px;
+}
+#page a.pagechange{
+    width: 70px;
+}
+#page a:hover{
+    background-color: rgb(0,161,214);
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#selected{
+    background-color: rgb(0,161,214);
+    font-weight: bold;
+    color: #FFFFFF;
+}

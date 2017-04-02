@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#photo{
+    width: 1300px;
+    min-height:600px;
+    margin: 0 auto;
+    font-size: 15px;
+	font-family: "微软雅黑";
+    background-color: lightsteelblue;
+    border: 0 solid lightsteelblue;
+    border-radius: 10px;
+}
+#photo h2{
+    font-size: 35px;
+    font-family: "微软雅黑";
+    color: #04569A;
+    text-indent: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+#photo p{
+    clear: both;
+    text-indent: 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#photo p a{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    text-decoration: none;
+}
+#photo p a:hover{
+    color: dimgrey;
+}
+#photo dl{
+    width: 1000px;
+    margin: 60px auto 40px auto;
+    font-family: "微软雅黑";
+/*    background: red;*/
+}
+#photo dl dt{
+    text-align: center;
+}
+#photo dl#password dt{
+    font-size: 28px;
+    font-family: "微软雅黑", "黑体";
+    color: #5a5a5a;
+}
+#photo dl#password dd{
+    padding-top: 60px;
+    text-align: center;
+}
+#photo dl#password dd #password{
+    width: 275px;
+    height: 50px;
+    font-size: 75px;
+    font-family: "微软雅黑";
+    border: 2px solid lightsteelblue;
+    border-radius: 10px;
+}
+#photo dl#password dd #submit{
+    width: 175px;
+    height: 45px;
+    color: darkorange;
+    font-family: "微软雅黑", "黑体";
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 15px;
+    border: 1px solid #1883ba;
+    border-radius: 10px;
+    background-color: #1883ba;
+    cursor: pointer;
+}
+#photo dl#password dd #submit:hover{
+    color: whitesmoke;
+    background-color: royalblue;
+}
+#photo dl dd{
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 0 0 15px 5px;
+}
+#photo dl dd.name{
+    font-size: 22px;
+    font-family: SimHei;
+}
+#photo dl dd.browse{
+    color: #3a768f;
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+#photo dl .delete a{
+    color: #3a768f;
+    float: left;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    left: 750px;
+}
+#photo dl .delete a:hover{
+    color: #014d68;
+    font-weight: bolder;
+}
+#photo dl .name a{
+    text-decoration: none;
+    color: black;
+}
+#photo dl .name a:hover{
+    font-weight: bold;
+    color: mediumslateblue;
+}
+#page{
+    clear: both;
+}
+#page ul{
+    position: relative;
+    right: 60px;
+    /*top: 20px;*/
+    float: right;
+    margin:20px 0 10px 0;
+}
+#page li{
+	float: left;
+	height:30px;
+	margin-left: 10px;
+    list-style: none;
+}
+#page li.number{
+    width: 30px;
+}
+#page li.page{
+ 	width: 70px;
+}
+#page a{
+	display: block;
+    height:30px;
+    color: #212121;
+    line-height: 30px;
+    border: 1px solid rgb(0,161,214);
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+#page a.numb{
+    width: 30px;
+}
+#page a.pagechange{
+	width: 70px;
+}
+#page a:hover{
+    background-color: rgb(0,161,214);
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#selected{
+    background-color: rgb(0,161,214);
+    font-weight: bold;
+    color: #FFFFFF;
+ }

@@ -1,0 +1,46 @@
+*{
+    font-family: "微软雅黑";
+}
+div{
+    width:400px;
+    min-height: 275px;
+    margin: 0 auto;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+div h1{
+    padding: 15px;
+    text-align: center;
+}
+div dl{
+    margin: 50px auto;
+    /*background-color: #00b3ff;*/
+}
+div dl dd{
+    text-align: center;
+    margin-top: 35px;
+}
+div dl dd input#text{
+    font-size: 20px;
+    padding-left: 15px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 30px 0 0;
+    border: 0 solid #1883ba;
+    border-radius: 10px;
+}
+div dl dd input#sub{
+    width: 100px;
+    height: 40px;
+    color: darkorange;
+    font: normal bold 25px/25px "微软雅黑 Light";
+    border: 1px solid #1883ba;
+    border-radius: 10px;
+    background-color: #1883ba;
+    margin: 0 30px 0 0 ;
+    cursor: pointer;
+}
+div dl dd input#sub:hover{
+    color: whitesmoke;
+    background-color: royalblue;
+}

@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#member{
+    width: 1300px;
+    height: 725px;
+    font-size: 15px;
+    font-family: "微软雅黑";
+    background-color: lightsteelblue;
+    border: 0 solid lightsteelblue;
+    border-radius: 10px;
+}
+#member h2{
+    font-size: 18px;
+    background: lightsteelblue;
+    height: 35px;
+    line-height: 35px;
+    text-indent: 10px;
+    border: 0 solid lightsteelblue;
+    border-radius: 5px;
+}
+#member_sidebar{
+    width:300px;
+    height:550px;
+    margin: 50px 0 0 50px;
+    border: 2px solid #999999;
+    border-radius: 10px;
+    float: left;
+    background-color: lightgoldenrodyellow;
+}
+#member_sidebar dl{
+    width: 250px;
+    margin: 25px auto;
+}
+#member_sidebar dl dt {
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: lightsteelblue;
+    border: 0 solid lightsteelblue;
+    border-radius: 5px;
+}
+#member_sidebar dl dd{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    background-color: lightskyblue;
+    border: 0 solid lightskyblue;
+    border-radius: 5px;
+}
+#member_sidebar dl dd a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    color: black;
+    text-decoration: none;
+}
+#member_sidebar dl dd a:hover{
+    background: cornflowerblue;
+    border: 0 solid cornflowerblue;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+#member_main{
+    width:850px;
+    height:630px;
+    margin: 50px 50px 0 0;
+    border: 2px solid #999999;
+    border-radius: 10px;
+    float: right;
+    background-color: lightgoldenrodyellow;
+}
+#member_main dl{
+    width: 800px;
+    height: 225px;
+    margin: 30px auto 0 auto;
+    padding: 15px;
+    font-family: "微软雅黑";
+    border: 1px solid grey;
+    /*background: red;*/
+}
+#member_main dl dt{
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 2px dashed grey;
+}
+#member_main dl dd{
+    font-size: 20px;
+    padding: 5px;
+}
+#member_main dl .date{
+    float:right;
+}
+#page{
+    clear: both;
+}
+#page ul{
+    position: relative;
+    right: 60px;
+    /*top: 20px;*/
+    float: right;
+    margin:27px 0 10px 0;
+}
+#page li{
+    float: left;
+    height:30px;
+    margin-left: 10px;
+    list-style: none;
+}
+#page li.number{
+    width: 30px;
+}
+#page li.page{
+    width: 70px;
+}
+#page a{
+    display: block;
+    height:30px;
+    color: #212121;
+    line-height: 30px;
+    border: 1px solid rgb(0,161,214);
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+#page a.numb{
+    width: 30px;
+}
+#page a.pagechange{
+    width: 70px;
+}
+#page a:hover{
+    background-color: rgb(0,161,214);
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#selected{
+    background-color: rgb(0,161,214);
+    font-weight: bold;
+    color: #FFFFFF;
+}
